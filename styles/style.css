@@ -20,6 +20,10 @@
     font-family: var(--site-font);
 }
 
+img {
+    width: 100%;
+}
+
 .section__title {
     font-family: var(--site-font);
     font-weight: 600;
@@ -35,6 +39,15 @@
     font-size: 16px;
     line-height: 32px;
     color: var(--text-color);
+}
+
+.divider {
+    border-radius: 1px;
+    border: 0;
+    width: 100px;
+    height: 3px;
+    background-color: red;
+    margin: 0 auto;
 }
 
 
@@ -70,6 +83,90 @@
     color: #FFFFFF;
     background-color: var(--primary-color);
     padding: 17px 52px;
+    border: 1px solid var(--primary-color) !important;
+}
+
+/* Banner CSS Starts */
+
+.banner__container {
+    background: rgba(231, 111, 81, 0.1);
+    border-radius: 5px;
+}
+
+.carousel__box {
+    padding: 104px;
+}
+
+.banner__container .carousel-control-next,
+.banner__container .carousel-control-prev {
+    width: 5%;
+}
+
+.banner__carousel__icon-left {
+    background: url("../assets/icons/left_arrow.svg");
+}
+
+.banner__carousel__icon-right {
+    background: url("../assets/icons/right_arrow.svg");
+}
+
+.banner__title {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 75px;
+    color: var(--black-color);
+}
+
+.banner__text {
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.8);
 }
 
 /* * Header CSS Ends */
+
+
+/* * Fetured Bikes Section CSS Starts */
+
+.featurd-bikes {
+    margin-top: 170px;
+}
+
+.section__sub-title {
+    font-family: var(--site-font);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: var(--primary-color);
+
+}
+
+/* * Fetured Bikes Section CSS Ends */
+
+
+/* * News section CSS Starts */
+
+.news {
+    margin-top: 130px;
+}
+
+.news__card__title {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 40px;
+    color: var(--title-color);
+}
+
+.card__btn {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    margin-top: 40px;
+}
+
+.card__btn--outline{
+    background-color: transparent;
+    color: var(--primary-color);
+}
+
+/* * News section CSS Ends */
