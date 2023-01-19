@@ -50,6 +50,10 @@ img {
     margin: 0 auto;
 }
 
+.pt__130 {
+    margin-top: 130px;
+}
+
 
 /* * Header CSS Starts */
 
@@ -146,10 +150,6 @@ img {
 
 /* * News section CSS Starts */
 
-.news {
-    margin-top: 130px;
-}
-
 .news__card__title {
     font-weight: 600;
     font-size: 28px;
@@ -164,9 +164,64 @@ img {
     margin-top: 40px;
 }
 
-.card__btn--outline{
+.card__btn--outline {
     background-color: transparent;
     color: var(--primary-color);
 }
 
 /* * News section CSS Ends */
+
+
+/* * Testimonial Section CSS Starts */
+
+.primary-color {
+    color: var(--primary-color);
+}
+
+.client__img {
+    width: 150px;
+}
+
+.starts img {
+    width: 22px;
+}
+
+.client__name {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #23A6F0;
+}
+
+.client_prf {
+    color: var(--title-color);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+}
+
+/* * Testimonial Section CSS Ends */
+
+
+/* Footer Section CSS Starts */
+
+footer {
+    background-color: #0B0D17;
+    padding: 56px 0 84px;
+}
+
+.app-link-title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #D9DBE1;
+}
+
+.app_link {
+    width: 135px;
+    display: block;
+}
+
+/* Footer Section CSS Ends */
