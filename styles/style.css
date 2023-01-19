@@ -1,0 +1,75 @@
+/* * Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/* * Root CSS */
+
+:root {
+    --site-font: 'Poppins', sans-serif;
+    --primary-color: #E76F51;
+    --title-color: #0A0826;
+    --text-color: #6C6C6C;
+    --black-color: #000;
+}
+
+
+/* * Common CSS */
+
+* {
+    box-sizing: border-box;
+    font-family: var(--site-font);
+}
+
+.section__title {
+    font-family: var(--site-font);
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;
+    color: var(--title-color);
+
+}
+
+.section__text {
+    font-family: var(--site-font);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: var(--text-color);
+}
+
+
+/* * Header CSS Starts */
+
+.header__nav {
+    padding: 30px 0;
+}
+
+.site__logo {
+    font-family: var(--site-font);
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 52px;
+    color: var(--black-color)
+}
+
+.site__menu .nav-link {
+
+    font-family: var(--site-font);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--black-color);
+    margin-left: 20px;
+}
+
+.site__btn {
+    font-family: var(--site-font);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    background-color: var(--primary-color);
+    padding: 17px 52px;
+}
+
+/* * Header CSS Ends */
